@@ -13,7 +13,7 @@ A simple and interactive web-based KeyLogger built using **HTML**, **CSS**, and 
 
 ## 📸 Demo
 
-![App Screenshot](assets/image/screenshot.jpg) <!-- Replace this with an actual screenshot if needed -->
+![App Screenshot](assets/image/screenshot.png) <!-- Replace this with an actual screenshot if needed -->
 
 ## 🛠️ Tech Stack
 
