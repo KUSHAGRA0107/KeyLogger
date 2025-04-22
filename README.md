@@ -8,6 +8,7 @@ A simple and interactive web-based KeyLogger built using **HTML**, **CSS**, and 
 - 🟢 Start and Stop buttons to control logging
 - 📋 Real-time display of key name and status
 - 🎨 Clean, aesthetic UI with background image
+
 - 🧠 Beginner-friendly JavaScript event handling
 
 ## 📸 Demo
