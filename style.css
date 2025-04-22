@@ -1,0 +1,116 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('assets/image/background-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+/* Container should be centered */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: center;
+    /* Center content vertically */
+    align-items: center;
+    /* Center content horizontally */
+    height: 100vh;
+    /* Full viewport height */
+    color: #ffffff;
+    /* Ensure text color is visible on background */
+}
+
+/* Heading should be centered */
+h1 {
+    font-family: "Underdog", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 100px;
+
+}
+
+/* Button container to align buttons horizontally */
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Align buttons horizontally */
+    gap: 20px;
+    /* Space between the buttons */
+    margin-bottom: 20px;
+    /* Space below the buttons */
+}
+
+/* Styling for the buttons (start-btn and stop-btn) */
+#start-btn,
+#stop-btn {
+
+    font-family: "Underdog", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #0077B5;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    /* Increase padding for button size */
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+    min-width: 150px;
+    /* Set a minimum width for buttons */
+}
+
+#start-btn:hover,
+#stop-btn:hover {
+    background-color: #FFB800;
+}
+
+#start-btn:active,
+#stop-btn:active {
+    background-color: #FF9900;
+}
+
+/* Button container for log and state divs */
+#log,
+#state {
+    background-color: #FFCC00;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    padding: 12px 24px;
+    /* Padding to make divs look like buttons */
+    margin: 10px 0;
+    /* Space between divs */
+    text-align: center;
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease-in-out;
+    min-width: 200px;
+    /* Set a minimum width for divs */
+}
+
+#log:hover,
+#state:hover {
+    background-color: #FFB800;
+}
+
+#log:active,
+#state:active {
+    background-color: #FF9900;
+}
